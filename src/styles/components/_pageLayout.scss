@@ -1,0 +1,35 @@
+@import "../variables.scss";
+
+.page-layout {
+    min-height: 100vh;
+    &__header {
+        padding: 10px 20px;
+        background-color: $tertiary;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-left {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__logo {
+        width: 84px !important;
+        .MuiAvatar-img {
+            object-fit: contain;
+        }
+    }
+    &__body {
+        min-height: 100vh;
+    }
+    &__edit {
+        height: 20px;
+        width: 20px;
+        padding: 10px;
+    }
+    &__left-comp {
+        margin-left: 10px;
+        width: 24px;
+    }
+}

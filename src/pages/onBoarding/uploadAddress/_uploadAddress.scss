@@ -1,0 +1,20 @@
+@import "../../../styles/variables.scss";
+
+.upload-address {
+    &__form-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-width: 350px;
+    }
+    &__header {
+        padding-bottom: 25px;
+    }
+    &__input-field {
+        margin-top: 20px;
+    }
+    &__submit-btn {
+        max-width: 150px;
+        margin: 10px auto 0;
+    }
+}
